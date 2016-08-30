@@ -1,0 +1,10 @@
+/*!
+ * Gaesigner From Plugin
+ * version: 1.3-2016.08.24
+ * Copyright (c) 2016 Team Gaesigner.com
+ * QnA-email: admin@gaesigner.com
+ * QnA-email: jjackkun@gmail.com
+ * QnA-email: jjackkun81@naver.com
+ * QnA-email: inreverse8020@gmail.com
+ * Examples and documentation at: http://www.gaesigner.com/example.html
+*/

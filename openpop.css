@@ -1,0 +1,76 @@
+.openPopWrap {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.5);
+}
+.openPopWrap div.content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1, 1);
+	min-width: 300px;
+	max-width: 70%;
+	background: #fff;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.openPopWrap div.content.none {
+	box-shadow: none;
+	border-radius: 0px;
+}
+.openPopWrap div.content.none > div.description {
+	padding: 0px;
+}
+.openPopWrap div.content button.popClose {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.openPopWrap div.content h2.title {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #eee;
+	margin: 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+.openPopWrap div.content h2.title.none {
+	display: none;
+}
+.openPopWrap div.content div.description {
+	text-align: center;
+	transform: translate3d(0, 0, 0);
+	padding: 20px;
+	word-break: break-all;
+	max-height: 200px;
+	line-height: 1.6;
+}
+.openPopWrap div.content p.btns {
+	text-align: center;
+	padding: 0px 10px 10px;
+	font-size: 0px;
+	line-height: 0px;
+}
+.openPopWrap div.content p.btns button {
+	display: inline-block;
+	cursor: pointer;
+	height: 25px;
+	padding: 0px 10px;
+	margin-left: 5px;
+}
+.openPopWrap div.content p.btns button:nth-of-type(1) {
+	margin-left: 0px;
+}
+
+
+.yahoyaho {}
